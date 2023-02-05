@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.post('/', (req, res) => {
-  res.send(req.body);
+  res.send("hello world");
 });
 
 app.listen(3000, () => {
